@@ -8,7 +8,7 @@ int main()
 		for (int star = 1; star <= row; star++)
 		{
 			cout << "+";
-		}
+		} 
 		cout << endl;
 	}
 
