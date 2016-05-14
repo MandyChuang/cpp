@@ -1,13 +1,17 @@
 #include <iostream>
-#include <cmath>
 using namespace std;
 
 int main()
 {
-    long long a, b;
-    while(cin >> a >> b)
-    {
-        cout << abs(a - b) << endl;
-    }
-    return 0;
+	long long int h, a;
+
+	while(cin >> h >> a)
+	{
+		if(h > a)
+			cout << (h - a);
+		else 
+			cout << (a - h);
+		cout << endl;
+	}
+	return 0;
 }
