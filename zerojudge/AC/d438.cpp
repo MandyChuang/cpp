@@ -48,14 +48,14 @@ int main()
 		if(isPrime(i))
 			p[p_cnt++] = i;
 	}
-	cout << digit(13) << endl;
+	//cout << digit(13) << endl;
 	//cout << p_cnt << " " << p[p_cnt - 1] << endl;
 	for(int i = 2; i < 500000; i++)
 	{
 		digitPrime[i] = digitPrime[i - 1] + digit(2 * i + 1);
 	}
-	for(int i = 0; i < 20; i++)
-		cout << digitPrime[i] << " ";
+	// for(int i = 0; i < 20; i++)
+	// 	cout << digitPrime[i] << " ";
 	cin >> n;
 	for(int i = 0; i < n; i++)
 	{
